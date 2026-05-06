@@ -4,7 +4,7 @@ public class Estudiante extends Persona {
     private double promedio;
 
     public Estudiante(String nombre, int edad, String carrera, double promedio) {
-        super(nombre, edad); // Llama al constructor de Persona
+        super(nombre, edad); 
         this.carrera = carrera;
         this.promedio = promedio;
     }

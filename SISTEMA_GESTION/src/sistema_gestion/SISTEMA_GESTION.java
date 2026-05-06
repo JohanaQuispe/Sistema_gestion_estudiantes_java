@@ -10,12 +10,19 @@ import java.util.Scanner;
  * @author carol
  */
 public class SISTEMA_GESTION {
-
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+        ArrayList<Estudiante> listaEstudiantes = new ArrayList<>();
+        Scanner sn = new Scanner(System.in);
+        
+        // Agregando un estudiante de ejemplo (como tú)
+        listaEstudiantes.add(new Estudiante("Johana Quispe", 26, "Ingeniería de Sistemas", 20));
+        
+        System.out.println("--- SISTEMA DE GESTIÓN DE ESTUDIANTES ---");
+        for (Estudiante e : listaEstudiantes) {
+            e.mostrarInfo(); 
+        }
+    }  
 }
