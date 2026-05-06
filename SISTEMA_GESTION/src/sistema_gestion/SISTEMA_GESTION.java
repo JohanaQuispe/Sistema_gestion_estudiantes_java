@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package sistema_gestion;
-
+import java.util.ArrayList;
+import java.util.Scanner;
 /**
  *
  * @author carol
